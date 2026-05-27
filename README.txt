@@ -1,3 +1,6 @@
+THIS IS A UNOFFICIAL FORK OF WHISMY DECO, ALL CREDITS GO FOR THE ORIGINAL AUTHOR (Chakyl)
+
+(still a wip tho)
 
 Source installation information for modders
 -------------------------------------------
