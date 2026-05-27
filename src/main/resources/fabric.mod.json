@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "whimsy-deco-refabricated",
+	"version": "${version}",
+	"name": "Whimsy Deco Refabricated",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/whimsy-deco-refabricated/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ickydev.whimsydeco.WhimsyDecoRefabricated"
+		],
+		"client": [
+			"com.ickydev.whimsydeco.client.WhimsyDecoRefabricatedClient"
+		],
+		"fabric-datagen": [
+			"com.ickydev.whimsydeco.client.WhimsyDecoRefabricatedDataGenerator"
+		]
+	},
+	"mixins": [
+		"whimsy-deco-refabricated.mixins.json",
+		{
+			"config": "whimsy-deco-refabricated.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
