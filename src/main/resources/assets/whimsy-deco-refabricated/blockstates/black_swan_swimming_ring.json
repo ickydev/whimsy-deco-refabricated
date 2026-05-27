@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "whimsy_deco:block/black_swan_swimming_ring"
+    },
+    "facing=south": {
+      "model": "whimsy_deco:block/black_swan_swimming_ring",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "whimsy_deco:block/black_swan_swimming_ring",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "whimsy_deco:block/black_swan_swimming_ring",
+      "y": 270
+    }
+  }
+}

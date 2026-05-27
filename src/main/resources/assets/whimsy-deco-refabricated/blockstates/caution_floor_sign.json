@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "whimsy_deco:block/caution_floor_sign"
+    },
+    "facing=south": {
+      "model": "whimsy_deco:block/caution_floor_sign",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "whimsy_deco:block/caution_floor_sign",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "whimsy_deco:block/caution_floor_sign",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "whimsy_deco:block/blue_lawn_mower"
+    },
+    "facing=south": {
+      "model": "whimsy_deco:block/blue_lawn_mower",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "whimsy_deco:block/blue_lawn_mower",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "whimsy_deco:block/blue_lawn_mower",
+      "y": 270
+    }
+  }
+}

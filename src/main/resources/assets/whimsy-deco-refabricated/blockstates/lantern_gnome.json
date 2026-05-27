@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "whimsy_deco:block/lantern_gnome"
+    },
+    "facing=south": {
+      "model": "whimsy_deco:block/lantern_gnome",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "whimsy_deco:block/lantern_gnome",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "whimsy_deco:block/lantern_gnome",
+      "y": 270
+    }
+  }
+}

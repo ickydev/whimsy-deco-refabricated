@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "whimsy_deco:block/vocal_doll"
+    },
+    "facing=south": {
+      "model": "whimsy_deco:block/vocal_doll",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "whimsy_deco:block/vocal_doll",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "whimsy_deco:block/vocal_doll",
+      "y": 270
+    }
+  }
+}

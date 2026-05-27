@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "whimsy_deco:block/golden_horseshoe"
+    },
+    "facing=south": {
+      "model": "whimsy_deco:block/golden_horseshoe",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "whimsy_deco:block/golden_horseshoe",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "whimsy_deco:block/golden_horseshoe",
+      "y": 270
+    }
+  }
+}
